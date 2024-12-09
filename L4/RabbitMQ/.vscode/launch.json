@@ -1,0 +1,27 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Room",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-Room",
+			"program": "${workspaceFolder}/Room/bin/Debug/net8.0/Room.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/Room",
+			"console": "externalTerminal",
+			"stopAtEntry": false
+		},
+		{
+			"name": "Heater",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build-Heater",
+			"program": "${workspaceFolder}/Heater/bin/Debug/net8.0/Heater.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}/Heater",
+			"console": "externalTerminal",
+			"stopAtEntry": false
+		},
+	]
+}

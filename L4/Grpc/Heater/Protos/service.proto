@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+//this will translate into C# namespace
+package Services;
+
+message TemperatureMsg {
+  float value = 1 ;
+}
+
+
+//this is used for calls that do accept inputs or produce outputs
+message Empty {    
+}
+
+//this will translate into service and service client stubs
+service Room {    
+	//these will translate into a service operations
+  rpc Cool(TemperatureMsg) returns (BoolMsg);
+  rpc Heat(TemperatureMsg) returns (BoolMsg);
+  rpc CanCool(Empty) returns (BoolMsg);
+  rpc CanHeat(Empty) returns (BoolMsg);
+  rpc GetCurrentTemperature(Empty) returns (TemperatureMsg);
+
+
+	// rpc GetUniqueId(Empty) returns (IntMsg);
+	// rpc GetLightState(Empty) returns (GetLightStateOutput);
+	// rpc Queue(CarDesc) returns (BoolMsg);
+	// rpc IsFirstInLine(IntMsg) returns (BoolMsg);
+	// rpc Pass(CarDesc) returns (PassAttemptResult);
+}
+
+message BoolMsg {
+	bool value = 1;
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplercpAdapter", "SimplerpcAdapter\SimplercpAdapter.csproj", "{A1B0B6F3-D482-4174-80F4-ABEDA41DC3B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpGrpcAdapter", "HttpGrpcAdapter\HttpGrpcAdapter.csproj", "{8A78F5DF-EC65-45FF-9884-1108E50D59F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B0B6F3-D482-4174-80F4-ABEDA41DC3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B0B6F3-D482-4174-80F4-ABEDA41DC3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B0B6F3-D482-4174-80F4-ABEDA41DC3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B0B6F3-D482-4174-80F4-ABEDA41DC3B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A78F5DF-EC65-45FF-9884-1108E50D59F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A78F5DF-EC65-45FF-9884-1108E50D59F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A78F5DF-EC65-45FF-9884-1108E50D59F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A78F5DF-EC65-45FF-9884-1108E50D59F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
